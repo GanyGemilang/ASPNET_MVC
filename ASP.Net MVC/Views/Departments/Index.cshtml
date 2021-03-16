@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ASP.Net_MVC.Models.Department>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    <table class="table table-responsive">
+        <tr>
+            <th>Name</th>
+            <th>Created On</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.CreatedOn</td>
+                <td>@Html.ActionLink("Edit", "Edit", new { id = item.Id }, new {@class = "btn btn-info"})</td>
+            </tr>
+        }
+    </table>
+</div>
