@@ -10,11 +10,12 @@ namespace ASP.Net_MVC.Models
     public class Department
     {
         public Department() { }
-        public Department(int id, string name, DateTimeOffset createdOn)
+        public Department(int id, string name, DateTimeOffset createdOn, int divisionId)
         {
             Id = id;
             Name = name;
             CreatedOn = createdOn;
+            Division_Id = divisionId;
 
         }
 
@@ -24,8 +25,8 @@ namespace ASP.Net_MVC.Models
         public string Name { get; private set; }
         public DateTimeOffset CreatedOn { get; private set; }
 
-       /* public int Division_Id { get; private set; }
+        public int Division_Id { get; private set; }
         [ForeignKey("Division_Id")]
-        public Division Division { get; set; }*/
+        public Division Division { get; set; }
     }
 }

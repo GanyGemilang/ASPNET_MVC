@@ -1,4 +1,3 @@
-C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net MVC.csprojAssemblyReference.cache
 C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net MVC.csproj.CoreCompileInputs.cache
 C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\bin\ASP.Net MVC.dll.config
 C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\bin\ASP.Net MVC.dll
@@ -84,3 +83,4 @@ C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net MVC
 C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net_MVC.Migrations.sa.resources
 C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net MVC.csproj.GenerateResource.cache
 C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net_MVC.Migrations.DeleteFKDivision.resources
+C:\Users\asus\Documents\GitHub\Youtube Mas Aji\ASP.Net MVC\obj\Debug\ASP.Net_MVC.Migrations.addModelDivision.resources
